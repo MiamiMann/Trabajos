@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Destinos de viaje en Asia - Descubre China, Japón, Tailandia y más destinos">
+    <meta name="author" content="AsiaViajes">
+    <title>Destinos - AsiaViajes</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Fuentes personalizadas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Hojas de estilo personalizadas -->
+    <link href="blog.css" rel="stylesheet">
+    <!-- Hoja de estilo RTL para soporte de idiomas de derecha a izquierda -->
+    <link href="blog.rtl.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">AsiaViajes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="destinos.html">Destinos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="china.html">China</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="japon.html">Japón</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tailandia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Destinos</li>
+        </ol>
+      </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/600');">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Nuestros Destinos</h1>
+          <p class="hero-text">Descubre la fascinante Asia a través de nuestros destinos cuidadosamente seleccionados.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destinos principales -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="section-title text-center">Destinos Principales</h2>
+        <div class="row mt-4">
+          <!-- China -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card tour-card">
+              <img src="./Imagenes/Ciudad prohibida.jpg" class="card-img-top" alt="China">
+              <div class="card-body">
+                <h3 class="card-title">China</h3>
+                <p class="card-text">Descubre la milenaria cultura china, sus impresionantes paisajes y fascinantes tradiciones.</p>
+                <ul class="list-unstyled">
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Gran Muralla China</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Ciudad Prohibida</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Ejército de Terracota</li>
+                </ul>
+                <a href="china.html" class="btn btn-primary w-100">Explorar China</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Japón -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card tour-card">
+              <img src="./Imagenes/osaka.jpg" class="card-img-top" alt="Japón">
+              <div class="card-body">
+                <h3 class="card-title">Japón</h3>
+                <p class="card-text">Sumérgete en la perfecta combinación de tradición y vanguardia que ofrece Japón.</p>
+                <ul class="list-unstyled">
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Tokyo y sus distritos</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Kyoto y sus templos</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Monte Fuji</li>
+                </ul>
+                <a href="japon.html" class="btn btn-primary w-100">Explorar Japón</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Tailandia -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card tour-card">
+              <img src="./Imagenes/Tailandia.png" class="card-img-top" alt="Tailandia">
+              <div class="card-body">
+                <h3 class="card-title">Tailandia</h3>
+                <p class="card-text">Disfruta de las playas paradisíacas, la exótica gastronomía y los templos budistas.</p>
+                <ul class="list-unstyled">
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Bangkok y sus templos</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Islas del sur</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Chiang Mai</li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Explorar Tailandia</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Vietnam -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card tour-card">
+              <img src="./Imagenes/vietnam.jpg" class="card-img-top" alt="Vietnam">
+              <div class="card-body">
+                <h3 class="card-title">Vietnam</h3>
+                <p class="card-text">Explora la rica historia, paisajes impresionantes y deliciosa gastronomía vietnamita.</p>
+                <ul class="list-unstyled">
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Bahía de Halong</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Hanoi y Ho Chi Minh</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Delta del Mekong</li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Explorar Vietnam</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- India -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card tour-card">
+              <img src="./Imagenes/india.jpg" class="card-img-top" alt="India">
+              <div class="card-body">
+                <h3 class="card-title">India</h3>
+                <p class="card-text">Descubre la tierra de los contrastes, con sus colores vibrantes y rica espiritualidad.</p>
+                <ul class="list-unstyled">
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Taj Mahal</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Rajastán</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Varanasi y el Ganges</li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Explorar India</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Indonesia -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card tour-card">
+              <img src="./Imagenes/indonesia.jpg" class="card-img-top" alt="Indonesia">
+              <div class="card-body">
+                <h3 class="card-title">Indonesia</h3>
+                <p class="card-text">Relájate en las paradisíacas playas de Bali y descubre la cultura balinesa.</p>
+                <ul class="list-unstyled">
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Bali</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Islas Gili</li>
+                  <li><i class="fas fa-check-circle text-success me-2"></i> Templos de Java</li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Explorar Indonesia</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mapa de destinos -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="section-title text-center">¿Cuáles son los países del Sudeste Asiático? </h2>
+        <div class="row mt-4">
+          <div class="col-12 text-center">
+            <img src="./Imagenes/Map.webp" class="img-fluid rounded shadow" alt="Mapa de destinos en Asia">
+            <p class="mt-3">Explora nuestros destinos en Asia y descubre la increíble diversidad de culturas, paisajes y experiencias que este fascinante continente tiene para ofrecer.</p>
+            <img src="./Imagenes/Map 2.webp"
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <h4 class="footer-title">AsiaViajes</h4>
+            <p>Especialistas en viajes a Asia con más de 15 años de experiencia. Ofrecemos viajes personalizados con atención al detalle y guías locales de habla hispana.</p>
+            <div class="social-icons mt-4">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h4 class="footer-title">Destinos</h4>
+            <ul class="footer-links">
+              <li><a href="china.html">China</a></li>
+              <li><a href="japon.html">Japón</a></li>
+              <li><a href="#">Tailandia</a></li>
+              <li><a href="#">Vietnam</a></li>
+              <li><a href="#">Camboya</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="footer-title">Enlaces útiles</h4>
+            <ul class="footer-links">
+              <li><a href="#">Sobre nosotros</a></li>
+              <li><a href="#">Condiciones de viaje</a></li>
+              <li><a href="#">Preguntas frecuentes</a></li>
+              <li><a href="#">Política de privacidad</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="footer-title">Contacto</h4>
+            <p><i class="fas fa-map-marker-alt me-2"></i> Calle Gran Vía 123, Madrid</p>
+            <p><i class="fas fa-phone-alt me-2"></i> +34 91 123 45 67</p>
+            <p><i class="fas fa-envelope me-2"></i> info@asiaviajes.com</p>
+          </div>
+        </div>
+        <div class="row copyright">
+          <div class="col-md-6">
+            <p>&copy; 2025 AsiaViajes. Todos los derechos reservados.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <p>Diseñado por WebDesign</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
