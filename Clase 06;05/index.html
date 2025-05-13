@@ -1,3 +1,5 @@
+index: 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,7 @@
 </head>
 <body>
     <h2>Notas Asignatura Front End</h2>
+    <p>Promedio General: <span id="average">0.00</span></p>
     <form id="studentform">
     <div>
         <label for="name">Nombre:</label>
@@ -22,17 +25,19 @@
     </div>
     <button type="submit">Guardar</button>
     </form>
-    <table id="studentform" border="1" cellpadding="8" cellspacing="0">
+    
+    <table id="studenttable" border="1" cellpadding="8" cellspacing="0">
         <thead>
             <tr>
                 <th>Nombre: </th>
                 <th>Apellido: </th>
-              <th>Nota: </th>
+                <th>Nota: </th>
             </tr>
         </thead>
-        </tbody>
-<!--filas de datos-->
+        <tbody>
         </tbody>
     </table>
+    
     <script src="script.js"></script>    
+</body>
 </html>
